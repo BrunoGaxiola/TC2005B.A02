@@ -355,3 +355,184 @@ footer img{
 #Rights a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navbar {
+        margin-top: 20px;
+    }
+
+    #login {
+        margin-top: 20px;
+    }
+
+    #Home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Home-Text {
+        width: 100%;
+    }
+
+    .Home-Aside {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #Holiday-Camp-Button {
+        width: 100%;
+    }
+
+    #Locations {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    #Location-Title-Subtitle {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .Locations-Table {
+        overflow-x: auto;
+    }
+
+    #Testimonials {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #Testimonials-Title-Subtitle {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #Testimonials-Flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Testimonials-Box {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    #Contact-Us {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    #Contact-Us-Image {
+        display: none;
+    }
+
+    #Contact-Us-Form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header {
+        padding: 10px;
+    }
+
+    #logo img {
+        width: 200px;
+        height: auto;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #login {
+        display: none;
+    }
+
+    #Home {
+        flex-direction: column;
+    }
+
+    #Home-Title-Subtitles {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #Home-Description {
+        padding: 0 10px;
+    }
+
+    .Home-Aside {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #Holiday-Camp-Button {
+        width: 100%;
+    }
+
+    #Locations {
+        padding: 20px;
+    }
+
+    #Location-Title-Subtitle {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .Locations-Table {
+        overflow-x: auto;
+    }
+
+    #Testimonials {
+        padding: 20px;
+    }
+
+    #Testimonials-Title-Subtitle {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #Testimonials-Flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Testimonials-Box {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    #Contact-Us {
+        padding: 20px;
+    }
+
+    #Contact-Us-Form {
+        width: 90%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .Footer-Page-Contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Footer-Links-Box {
+        margin: 20px 0;
+    }
+
+    #Rights {
+        margin-top: 20px;
+    }
+}
